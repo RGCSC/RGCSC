@@ -1,34 +1,33 @@
 body {
-  padding: 20px;
-  background: #fafafa;
-  position: relative;
+    padding: 20px;
+    background: #fafafa;
+    position: relative;
+}
+
+main {
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 h1 {
-  font-family: 'Open Sans', sans-serif;
-  text-transform: uppercase;
-  text-align: center;
-  color: #fafafa;
-  background: #424242;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fafafa;
+    background: #424242;
 }
 
-main{
-  padding: 10px;
-  text-align: center;
-  margin-bottom: 50px;
+footer {
+    text-align: center;
+    color: #fafafa;
+    background: #424242;
+    padding: 10px;
+    margin-top: 20px;
 }
 
-.section_title{
-  font-family: Verdana, Geneva, sans-serif;
-  font-size: 15px;
-  display:block;
-  
-}
-
-footer{
-  text-align: center;
-  color: #fafafa;
-  background: #424242;
-  padding: 10px;
-  margin-top: 20px;  
+.section-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    display: block;
 }
