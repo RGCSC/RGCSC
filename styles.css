@@ -1,35 +1,47 @@
 body {
-  padding: 20px;
-  background: #fafafa;
-  position: relative;
+    background: #fafafa;
+    position: relative;
+}
+
+main {
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 h1 {
-  font-family: 'Open Sans', sans-serif;
-  text-transform: uppercase;
-  text-align: center;
-  color: #fafafa;
-  background: #424242;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
 }
 
-main{
-  padding: 10px;
-  text-align: center;
-  margin-bottom: 50px;
+h4 {
+    text-align: left
+
 }
 
-.section_title{
-  font-family: Verdana, Geneva, sans-serif;
-  font-size: 15px;
-  display:block;
-  
+footer {
+    text-align: center;
+    color: #fafafa;
+    background: #424242;
+    padding: 10px;
+    margin-top: 20px;
 }
 
-footer{
-  text-align: center;
-  color: #F0F8FF; 
-  background:#1de9b6;
-  padding: 10px;
-  margin-top: 10px;
-  
+.mdl-layout__header {
+    font-family: 'Raleway', 'Open Sans' Verdana;   
+    background: linear-gradient(#2d8fa3, #78ffd6);
+}
+
+.section_title {
+    font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    display: block;
+    background: radial-gradient(#484b4f, #222426);
+}
+
+.resource_card{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 2em 1em;
 }
