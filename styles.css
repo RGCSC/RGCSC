@@ -12,8 +12,12 @@ h1 {
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     text-align: center;
-    color: #fafafa;
-    background: #424242;
+    color: white;
+}
+
+h4 {
+    text-align: left
+
 }
 
 footer {
@@ -24,8 +28,19 @@ footer {
     margin-top: 20px;
 }
 
-.section-title {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.mdl-layout__header {
+    font-family: 'Raleway', 'Open Sans' Verdana;   
+    background: linear-gradient(#2d8fa3, #78ffd6);
+}
+
+.section_title {
+    font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
     display: block;
+    background: radial-gradient(#484b4f, #222426);
 }
+
+.resource_card{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 2em 1em;
